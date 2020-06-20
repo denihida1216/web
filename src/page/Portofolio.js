@@ -5,9 +5,11 @@ class Portofolio extends Component {
     return (
       <div>
         <h2>Portofolio</h2>
-        <p>Email: info@email.com <br />
-           Phone: 002938293089
-</p>
+        <p><img data-src="/img/profil.jpg" class="rounded mx-auto d-block lazyloaded" src="/img/profil.jpg"/></p>
+        <p>Halaman ini berisi project yang pernah dan sedang saya kerjakan. 
+          Ada yang bersifat side project dan ada juga yang serius. 
+          Untuk project private, saya tidak cantumkan di sini. 
+          Untuk project yang lainnya bisa ditemukan di <a href="github.com/denihida1216">Github</a>.</p>
       </div>
     );
   }
