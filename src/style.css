@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+.title {
+  color: #2D3B48;
+}
+
+ul, li {
+  text-align: right;
+}
+
+h1, h2, p, ul, li {
+  font-family: sans-serif;
+}
+ul.header li {
+  display: inline;
+  list-style-type: none;
+  margin: 0;
+}
+ul.header {
+  background-color: #FFF;
+  padding: 0;
+}
+ul.header li a {
+  color: #2D3B48;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 20px;
+  display: inline-block;
+}
+.content {
+  background-color: #FFF;
+  padding: 20px;
+}
+.content h2 {
+  padding: 0;
+  margin: 0;
+}
+.content li {
+  margin-bottom: 10px;
+}
