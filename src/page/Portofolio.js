@@ -5,7 +5,7 @@ class Portofolio extends Component {
     return (
       <div>
         <h2>Portofolio</h2>
-        <p><img data-src="/img/profil.jpg" class="rounded mx-auto d-block lazyloaded" src="/img/profil.jpg"/></p>
+        {/* <p><img data-src="/img/profil.jpg" class="rounded mx-auto d-block lazyloaded" src="/img/profil.jpg"/></p> */}
         <p>Halaman ini berisi project yang pernah dan sedang saya kerjakan. 
           Ada yang bersifat side project dan ada juga yang serius. 
           Untuk project private, saya tidak cantumkan di sini. 
