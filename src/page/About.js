@@ -1,10 +1,23 @@
 import React, { Component } from "react";
- 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
+import logo from './img/profil.jpeg';
+
+const MyImage = ({ image }) => (
+  <LazyLoadImage
+    alt="profil"
+    height="300px"
+    width="300px"
+    effect="blur"
+    src={logo} />
+);
+
 class About extends Component {
   render() {
     return (
       <div>
         <h2>About</h2>
+        <div><MyImage/></div>
         <p>
             Halo, saya Deni Hidayat, Sering dipanggil Deden (di rumah) dan Deni (di kampus).
           </p>

@@ -1,10 +1,10 @@
 import React, { Component } from "react";
 
-class Portofolio extends Component {
+class Blog extends Component {
   render() {
     return (
       <div>
-        <h2>Portofolio</h2>
+        <h2>Blog</h2>
         <p>Halaman ini berisi project yang pernah dan sedang saya kerjakan. 
           Ada yang bersifat side project dan ada juga yang serius. 
           Untuk project private, saya tidak cantumkan di sini. 
@@ -14,4 +14,4 @@ class Portofolio extends Component {
   }
 }
  
-export default Portofolio;
+export default Blog;
