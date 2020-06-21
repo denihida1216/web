@@ -18,6 +18,7 @@ class About extends Component {
       <div>
         <h2>About</h2>
         <div><MyImage/></div>
+        <p></p>
         <p>
             Halo, saya Deni Hidayat, Sering dipanggil Deden (di rumah) dan Deni (di kampus).
           </p>

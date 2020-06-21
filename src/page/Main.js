@@ -47,7 +47,7 @@ class Main extends React.Component {
                 </Navbar.Collapse>
               </Navbar>
             </div>
-            <div className="content justify-content-center" style={{ paddingTop: "70px", }}>
+            <div className="content" style={{ paddingTop: "70px",textAlign:"justify", }}>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/portofolio" component={Portofolio} />
@@ -57,7 +57,7 @@ class Main extends React.Component {
             <div className="footer">
               <footer className="mt-5 mb-5">
                 <div className="text-center text-secondary">
-                  &copy; 2020 <a href="https://denihida1216.github.io" className="text-secondary"> Deni Hidayat</a> &ndash; <a href="#privacy-policy" className="text-secondary"> Privacy Policy</a>
+                  &copy; {(new Date().getFullYear())} <a href="https://denihida1216.github.io" className="text-secondary"> Deni Hidayat</a> &ndash; <a href="#privacy-policy" className="text-secondary"> Privacy Policy</a>
                 </div>
               </footer>
             </div>
@@ -67,32 +67,6 @@ class Main extends React.Component {
           </HashRouter>
         </div>
       </div>
-      // <Router>
-      //     <h1 className="title">Deni Hidayat</h1>
-      //     <Navbar bg="light" variant="light">
-      //       <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-      //       <Nav className="mr-auto">
-      //         <Nav.Link href="#home">Home</Nav.Link>
-      //         <Nav.Link href="#features">Features</Nav.Link>
-      //         <Nav.Link href="#pricing">Pricing</Nav.Link>
-      //       </Nav>
-      //     </Navbar>
-      //     <ul className="header">
-      //       <li><NavLink to="/" replace>Blog</NavLink></li>
-      //       <li><NavLink to="/about" replace>About</NavLink></li>
-      //       <li><NavLink to="/portofolio" replace>Portofolio</NavLink></li>
-      //     </ul>
-      //     <div className="content">
-      //       <Route exact path="/" component={Home}/>
-      //       <Route path="/about" component={About}/>
-      //       <Route path="/portofolio" component={Portofolio}/>
-      //     </div>
-      //     <ul className="footer">
-      //     </ul>
-      // <ScrollToTop showUnder={160}>
-      //   <Icon.ChevronUp color="white" style={{backgroundColor: "black", opacity: 0.3}} size={40} />
-      // </ScrollToTop>
-      // </Router>
     );
   }
 }
