@@ -3,6 +3,7 @@ import ScrollToTop from "react-scroll-up";
 import * as Icon from 'react-bootstrap-icons';
 import {
   Route,
+  Link,
 } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -28,7 +29,7 @@ class Main extends React.Component {
         <div className="col-md-12">
             <div className="header">
               <Navbar expanded={this.state.expanded} bg="dark" variant="dark" expand="lg" fixed="top" style={{ padding: "20px", }}>
-                <Navbar.Brand href="/">
+                <Link className="navbar-brand" to="/">
                   <img
                     alt=""
                     src={logo}
@@ -36,13 +37,13 @@ class Main extends React.Component {
                     height="30"
                     className="d-inline-block align-top" />{' '}
                   Deni Hidayat
-                </Navbar.Brand>
+                </Link>
                 <Navbar.Toggle onClick={() => this.state.expanded ? this.setState({ expanded: false }) : this.setState({ expanded: true })} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
-                    <Nav.Link href="/about" onClick={() => this.setState({ expanded: false })}>About</Nav.Link>
-                    <Nav.Link href="/portofolio" onClick={() => this.setState({ expanded: false })}>Portofolio</Nav.Link>
-                    <Nav.Link href="/blog" onClick={() => this.setState({ expanded: false })}>Blog</Nav.Link>
+                    <Link className="nav-link" to="/about" onClick={() => this.setState({ expanded: false })}>About</Link>
+                    <Link className="nav-link" to="/portofolio" onClick={() => this.setState({ expanded: false })}>Portofolio</Link>
+                    <Link className="nav-link" to="/blog" onClick={() => this.setState({ expanded: false })}>Blog</Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
