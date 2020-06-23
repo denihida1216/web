@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { DiscussionEmbed, CommentCount, CommentEmbed } from 'disqus-react';
+import { DiscussionEmbed } from 'disqus-react';
 
 class Blog extends Component {
   render() {

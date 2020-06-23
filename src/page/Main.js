@@ -2,7 +2,6 @@ import React from 'react';
 import ScrollToTop from "react-scroll-up";
 import * as Icon from 'react-bootstrap-icons';
 import {
-  HashRouter,
   Route,
 } from "react-router-dom";
 import { Navbar, Nav } from 'react-bootstrap';
@@ -22,12 +21,13 @@ class Main extends React.Component {
     };
   }
   render() {
+    console.log(this.state);
+    console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
       <div className="row">
         <div className="col-md-12">
-          <HashRouter>
             <div className="header">
-              <Navbar expanded={this.state.expanded} bg="dark" variant="dark" expand="lg" fixed="top">
+              <Navbar expanded={this.state.expanded} bg="dark" variant="dark" expand="lg" fixed="top" style={{ padding: "20px", }}>
                 <Navbar.Brand href="/">
                   <img
                     alt=""
@@ -40,9 +40,9 @@ class Main extends React.Component {
                 <Navbar.Toggle onClick={() => this.state.expanded ? this.setState({ expanded: false }) : this.setState({ expanded: true })} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
-                    <Nav.Link href="#about" onClick={() => this.setState({ expanded: false })}>About</Nav.Link>
-                    <Nav.Link href="#portofolio" onClick={() => this.setState({ expanded: false })}>Portofolio</Nav.Link>
-                    <Nav.Link href="#blog" onClick={() => this.setState({ expanded: false })}>Blog</Nav.Link>
+                    <Nav.Link href="/about" onClick={() => this.setState({ expanded: false })}>About</Nav.Link>
+                    <Nav.Link href="/portofolio" onClick={() => this.setState({ expanded: false })}>Portofolio</Nav.Link>
+                    <Nav.Link href="/blog" onClick={() => this.setState({ expanded: false })}>Blog</Nav.Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
@@ -55,7 +55,7 @@ class Main extends React.Component {
               <Route path="/privacy-policy" component={PrivacyPolicy} />
             </div>
             <div className="footer">
-              <footer className="mt-5 mb-5">
+              <footer className="mt-5 mb-5" style={{backgroundColor:"#343a40!important"}}>
                 <div className="text-center text-secondary">
                   &copy; {(new Date().getFullYear())} <a href="https://denihida1216.github.io" className="text-secondary"> Deni Hidayat</a> &ndash; <a href="#privacy-policy" className="text-secondary"> Privacy Policy</a>
                 </div>
@@ -64,7 +64,6 @@ class Main extends React.Component {
             <ScrollToTop showUnder={160}>
               <Icon.ChevronUp color="white" style={{ backgroundColor: "black", opacity: 0.4 }} size={40} />
             </ScrollToTop>
-          </HashRouter>
         </div>
       </div>
     );
