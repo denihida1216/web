@@ -5,8 +5,7 @@ import {
   Route,
   Link,
 } from "react-router-dom";
-import { Navbar, Nav } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from "./Home";
 import About from "./About";
 import Portofolio from "./Portofolio";
@@ -22,6 +21,9 @@ class Main extends React.Component {
     };
   }
   render() {
+    function navClick(t){
+      t.setState({ expanded: false });
+    }
     return (
       <div className="row">
         <div className="col-md-12">
@@ -39,27 +41,27 @@ class Main extends React.Component {
                 <Navbar.Toggle onClick={() => this.state.expanded ? this.setState({ expanded: false }) : this.setState({ expanded: true })} aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                   <Nav className="mr-auto">
-                    <Link className="nav-link" to="/about" onClick={() => this.setState({ expanded: false })}>About</Link>
-                    <Link className="nav-link" to="/portofolio" onClick={() => this.setState({ expanded: false })}>Portofolio</Link>
-                    <Link className="nav-link" to="/blog" onClick={() => this.setState({ expanded: false })}>Blog</Link>
+                    <Link className="nav-link" to="/about" onClick={()=>navClick(this)}>About</Link>
+                    <Link className="nav-link" to="/portofolio" onClick={()=>navClick(this)}>Portofolio</Link>
+                    <Link className="nav-link" to="/blog" onClick={()=>navClick(this)}>Blog</Link>
                   </Nav>
                 </Navbar.Collapse>
               </Navbar>
             </div>
-            <div className="content" style={{ paddingTop: "70px",textAlign:"justify", }}>
+            <Container className="themed-container" fluid={true} style={{ paddingTop: "70px",textAlign:"justify", }}>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/portofolio" component={Portofolio} />
               <Route path="/blog" component={Blog} />
               <Route path="/privacy-policy" component={PrivacyPolicy} />
-            </div>
-            <div className="footer">
-              <footer className="mt-5 mb-5" style={{backgroundColor:"#343a40!important"}}>
-                <div className="text-center text-secondary">
-                  &copy; {(new Date().getFullYear())} <a href="https://denihida1216.github.io" className="text-secondary"> Deni Hidayat</a> &ndash; <a href="#privacy-policy" className="text-secondary"> Privacy Policy</a>
-                </div>
+            </Container>
+              <footer>
+                <Container className="themed-container" fluid={true}>
+                  <div className="text-center text-secondary">
+                      &copy; {(new Date().getFullYear())} <Link to="/" target="_blank" className="text-secondary"> Deni Hidayat</Link> &ndash; <Link to="/privacy-policy" target="_blank" className="text-secondary"> Privacy Policy</Link>
+                    </div>
+                </Container>
               </footer>
-            </div>
             <ScrollToTop showUnder={160}>
               <Icon.ChevronUp color="white" style={{ backgroundColor: "black", opacity: 0.4 }} size={40} />
             </ScrollToTop>
