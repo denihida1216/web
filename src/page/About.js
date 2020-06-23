@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
-import logo from './img/profil.jpg';
 
 const MyImage = ({ image }) => (
   <LazyLoadImage
@@ -8,7 +7,7 @@ const MyImage = ({ image }) => (
     height="300px"
     width="300px"
     effect="blur"
-    src={logo} />
+    src="./img/about/profil.jpg" />
 );
 
 class About extends Component {

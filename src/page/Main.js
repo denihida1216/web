@@ -11,7 +11,6 @@ import About from "./About";
 import Portofolio from "./Portofolio";
 import Blog from "./Blog";
 import PrivacyPolicy from "./PrivacyPolicy";
-import logo from './img/favicon.ico';
 
 class Main extends React.Component {
   constructor(props) {
@@ -34,7 +33,7 @@ class Main extends React.Component {
                 <Link className="navbar-brand" to="/" onClick={()=>navClick(this)}>
                   <img
                     alt=""
-                    src={logo}
+                    src="./favicon.ico"
                     width="30"
                     height="30"
                     className="d-inline-block align-top" />{' '}

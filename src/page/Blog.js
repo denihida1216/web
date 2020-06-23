@@ -4,7 +4,6 @@ import {
   Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button
 } from 'reactstrap';
-import logo from './img/blog/318x180.svg';
 
 class Blog extends Component {
   render() {
@@ -13,12 +12,12 @@ class Blog extends Component {
       items.push(
         <div className="col-md-3" style={{ marginBottom: 20 }} key={i}>
           <Card key={i}>
-            <CardImg top width="100%" src={logo} alt="Card image cap" />
+            <CardImg top width="100%" src="./img/blog/318x180.svg" alt="Card image cap" />
             <CardBody>
               <CardTitle>Title{i + 1}</CardTitle>
               <CardSubtitle>Subtitle{i + 1}</CardSubtitle>
               <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-              <Button>Read More</Button>
+              <Button className="float-right">Read More</Button>
             </CardBody>
           </Card>
         </div>);
