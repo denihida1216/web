@@ -8,7 +8,7 @@ import 'react-lazy-load-image-component/src/effects/blur.css';
 import 'bootstrap/dist/css/bootstrap.css';
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router basename={process.env.PUBLIC_URL+'/'}>
     <Main />
   </Router>, document.getElementById('root'));
 

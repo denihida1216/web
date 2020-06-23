@@ -14,14 +14,14 @@ class About extends Component {
   render() {
     return (
       <div>
-        <h2>About</h2>
+        <h1>About</h1>
         <div><MyImage/></div>
         <p></p>
         <p>
             Halo, saya Deni Hidayat, Sering dipanggil Deden (di rumah) dan Deni (di kampus).
           </p>
           <p>
-            Saat ini, saya adalah freelance.
+            Saat ini, pekerjaan saya freelance.
             Pernah menempuh pendidikan di Universitas Bale Bandung mengambil program studi Teknik Informatika.
           </p>
           <p>
