@@ -22,8 +22,6 @@ class Main extends React.Component {
     };
   }
   render() {
-    console.log(this.state);
-    console.log("This is the process.env", process.env.PUBLIC_URL);
     return (
       <div className="row">
         <div className="col-md-12">
