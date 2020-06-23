@@ -20,16 +20,18 @@ class Main extends React.Component {
       expanded: false,
     };
   }
+
   render() {
     function navClick(t){
       t.setState({ expanded: false });
+      window.scrollTo(0, 0);
     }
     return (
       <div className="row">
         <div className="col-md-12">
             <div className="header">
               <Navbar expanded={this.state.expanded} bg="dark" variant="dark" expand="lg" fixed="top" style={{ padding: "20px", }}>
-                <Link className="navbar-brand" to="/">
+                <Link className="navbar-brand" to="/" onClick={()=>navClick(this)}>
                   <img
                     alt=""
                     src={logo}
