@@ -50,14 +50,14 @@ class Main extends React.Component {
                 </Navbar.Collapse>
               </Navbar>
             </div>
-            <Container className="themed-container" fluid={true} style={{ paddingTop: "70px",textAlign:"justify", }}>
+            <Container className="themed-container" fluid={true} style={{ paddingTop: "70px",textAlign:"justify", }} onClick={()=>this.setState({ expanded: false })}>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/portofolio" component={Portofolio} />
               <Route path="/blog" component={Blog} />
               <Route path="/privacy-policy" component={PrivacyPolicy} />
             </Container>
-              <footer>
+              <footer onClick={()=>this.setState({ expanded: false })}>
                 <Container className="themed-container" fluid={true}>
                   <div className="text-center text-secondary">
                       &copy; {(new Date().getFullYear())} <Link to="/" target="_blank" className="text-secondary"> Deni Hidayat</Link> &ndash; <Link to="/privacy-policy" target="_blank" className="text-secondary"> Privacy Policy</Link>
