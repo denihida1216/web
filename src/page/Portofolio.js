@@ -4,7 +4,7 @@ import { LazyLoadImage } from 'react-lazy-load-image-component';
 class Portofolio extends Component {
   render() {
     return (
-      <div>
+      <div style={{textAlign:"justify"}}>
         <h1>Portofolio</h1>
         <p>Halaman ini berisi project yang pernah dan sedang saya kerjakan.
           Untuk project yang tidak bersifat privasi, bisa ditemukan di <a href="https://github.com/denihida1216">Github</a>.</p>

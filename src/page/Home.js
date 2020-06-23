@@ -8,85 +8,70 @@ import {
 } from "react-router-dom";
 class Home extends Component {
   render() {
-    const data = [
-      {
-        'id': 'delphi',
-        'title': 'DELPHI',
-        'path': '/blog/delphi',
-      },
-      {
-        'id': 'android',
-        'title': 'ANDROID',
-        'path': '/blog/android',
-      },
-      {
-        'id': 'web',
-        'title': 'WEB',
-        'path': '/blog/web',
-      },
-      {
-        'id': 'odoo',
-        'title': 'ODOO',
-        'path': '/blog/odoo',
-      },
-      {
-        'id': 'flutter',
-        'title': 'FLUTTER',
-        'path': '/blog/flutter',
-      },
-      {
-        'id': 'ci',
-        'title': 'CODEIGNITER',
-        'path': '/blog/codeigniter',
-      },
-      {
-        'id': 'lv',
-        'title': 'LARAVEL',
-        'path': '/blog/laravel',
-      },
-    ];
-    const items = [];
-    data.forEach(data => {
-      items.push(
-        <div key={data['id']}>
-          <Link to={data['path']} className="list-group-item list-group-item-action">{data['title']}</Link>
-        </div>);
-    });
-
-    const items2 = [];
-    for (let i = 0; i < 10; i++) {
-      items2.push(
-        <div className="col-md-6" style={{ marginBottom: 20, }} key={i}>
-          <Card key={i}>
-            <CardImg top width="100%" src="./img/blog/318x180.svg" alt="Card image cap" />
-            <CardBody>
-              <CardTitle>Title{i + 1}</CardTitle>
-              <CardSubtitle>Subtitle{i + 1}</CardSubtitle>
-              <CardText>Some quick example text to build on the card title and make up the bulk of the card's content.</CardText>
-              <Button className="float-right">Read More</Button>
-            </CardBody>
-          </Card>
-        </div>);
-    };
-    
     return (
       <div>
-        <h1>Blog</h1>
+        <h1>Arsip</h1>
         <div className="row">
-          <div className="col-md-9">
-          <div className="row">
-            {items2}
+          <div className="col-md-12">
+            <Card key={'2020'}>
+              <CardBody className="p-0">
+                <table className="table table-hover bg-white">
+                  <tbody>
+                    <tr>
+                      <td colspan="3">
+                        <h4>2020</h4>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="p-1">
+                        <time className="text-secondary badge badge-default small" title="2015-06-06 23:44:45 +0800 +0800">
+                          6 Jun<span className="d-none d-md-inline"> 2020</span>
+                        </time>
+                      </td>
+                      <td className="p-1">
+                        <Link className="text-dark" to="/blog/hp-cooling-fan/">Memperbaiki Laptop HP: COOLING FAN (902) ERROR</Link>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3">
+                        <h4>2019</h4>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="p-1">
+                        <time className="text-secondary badge badge-default small" title="2015-06-06 23:44:45 +0800 +0800">
+                          6 Jun<span className="d-none d-md-inline"> 2019</span>
+                        </time>
+                      </td>
+                      <td className="p-1">
+                        <Link className="text-dark" to="/blog/hp-cooling-fan/">Memperbaiki Laptop HP: COOLING FAN (902) ERROR</Link>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td colspan="3">
+                        <h4>2018</h4>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td className="p-1">
+                        <time className="text-secondary badge badge-default small" title="2015-06-06 23:44:45 +0800 +0800">
+                          6 Jun<span className="d-none d-md-inline"> 2018</span>
+                        </time>
+                      </td>
+                      <td className="p-1">
+                        <Link className="text-dark" to="/blog/hp-cooling-fan/">Memperbaiki Laptop HP: COOLING FAN (902) ERROR</Link>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </CardBody>
+            </Card>
           </div>
-          </div>
-          <div className="col-md-3">
-            <b className="list-group-item" style={{textAlign:"center",}}>TAG</b>
-           {items}
-          </div>
+          {/* col end */}
         </div>
-
       </div>
     );
   }
 }
- 
+
 export default Home;

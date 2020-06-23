@@ -47,15 +47,16 @@ class Main extends React.Component {
                 </Navbar.Collapse>
               </Navbar>
               </header>
-            <Container className="themed-container card card-body p-md-5" style={{ marginTop: "70px", padding: "10px",textAlign:"justify", }} onClick={()=>this.setState({ expanded: false })}>
+            <Container className="themed-container card card-body p-md-5" style={{ marginTop: "70px", padding: "10px" }} onClick={()=>this.setState({ expanded: false })}>
               <Route exact path="/" component={Home} />
               <Route path="/about" component={About} />
               <Route path="/portofolio" component={Portofolio} />
               <Route path="/privacy-policy" component={PrivacyPolicy} />
             </Container>
               <footer className="mb-0 mt-5 py-5" onClick={()=>this.setState({ expanded: false })}>
+              {/* - {(new Date().getFullYear())} */}
                   <div className="text-center text-secondary">
-                      &copy; {(new Date().getFullYear())} <Link to="/" target="_blank" className="text-secondary"> Deni Hidayat</Link> &ndash; <Link to="/privacy-policy" target="_blank" className="text-secondary"> Privacy Policy</Link>
+                      &copy;2020 <Link to="/" target="_blank" className="text-secondary"> Deni Hidayat</Link> &ndash; <Link to="/privacy-policy" target="_blank" className="text-secondary"> Privacy Policy</Link>
                     </div>
               </footer>
             <ScrollToTop showUnder={160}>
