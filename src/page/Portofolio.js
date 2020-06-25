@@ -17,7 +17,7 @@ class Portofolio extends Component {
               alt="odoo pio 1"
               width="100%"
               effect="blur"
-              src="./img/portofolio/318x180.svg" />
+              src="./img/portofolio/pioodoo1.png" />
             <p>
               <br />
               Dibangun menggunakan python 3 framework odoo dengan bantuan software build Pycharm.
@@ -31,7 +31,7 @@ class Portofolio extends Component {
               alt="odoo tifatex 1"
               width="100%"
               effect="blur"
-              src="./img/portofolio/318x180.svg" />
+              src="./img/portofolio/tifatexodoo1.png" />
             <p>
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
@@ -45,7 +45,7 @@ class Portofolio extends Component {
               alt="odoo isa 1"
               width="100%"
               effect="blur"
-              src="./img/portofolio/318x180.svg" />
+              src="./img/portofolio/isaodoo1.png" />
             <p>
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
