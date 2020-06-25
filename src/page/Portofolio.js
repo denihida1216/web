@@ -77,7 +77,7 @@ class Portofolio extends Component {
               alt="odoo almegatex 1"
               width="100%"
               effect="blur"
-              src="./img/portofolio/318x180.svg" />
+              src="./img/portofolio/almegatexodoo1.png" />
             <p>
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
