@@ -3,7 +3,7 @@ import React, { Component } from "react";
 class PrivacyPolicy extends Component {
   render() {
     return (
-      <div>
+      <div style={{ textAlign: "justify" }}>
         <h1>Privacy Policy</h1>
         <p>Your privacy is critically important to us.</p>
         <address>
