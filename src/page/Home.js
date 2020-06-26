@@ -14,19 +14,19 @@ class Home extends Component {
         {
           'id': '1',
           'tanggal': '2020-01-01 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR1',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '2',
           'tanggal': '2020-01-02 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR2',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '3',
           'tanggal': '2020-01-03 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR3',
           'path': '/blog/hp-cooling-fan/'
         },
       ],
@@ -34,19 +34,19 @@ class Home extends Component {
         {
           'id': '1',
           'tanggal': '2020-01-04 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR4',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '2',
           'tanggal': '2020-01-05 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR5',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '3',
           'tanggal': '2020-01-06 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR6',
           'path': '/blog/hp-cooling-fan/'
         },
       ],
@@ -54,27 +54,29 @@ class Home extends Component {
         {
           'id': '1',
           'tanggal': '2020-01-07 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR7',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '2',
           'tanggal': '2020-01-08 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR8',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '3',
           'tanggal': '2020-01-09 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR',
+          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR9',
           'path': '/blog/hp-cooling-fan/'
         },
       ],
     };
 
-    Object.keys(json).forEach(function (key) {
+    // Object.keys(json).forEach(function (key) {
+      // Object.keys(json).forEach(function (key) {
+        Object.keys(json).reverse().map((key, i) => {
       item.push(
-        <tr key={key}>
+        <tr key={i}>
           <td colSpan="3">
             <h4>{key}</h4>
           </td>
