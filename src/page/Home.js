@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  Card, CardBody
 } from 'reactstrap';
 import {
   Link,
@@ -75,14 +74,14 @@ class Home extends Component {
 
     Object.keys(json).forEach(function (key) {
       item.push(
-        <tr>
-          <td colspan="3">
+        <tr key={key}>
+          <td colSpan="3">
             <h4>{key}</h4>
           </td>
         </tr>);
       json[key].forEach(vals => {
         item.push(
-          <tr>
+          <tr key={key+'_'+vals['id']}>
             <td className="p-1">
               <time className="text-secondary badge badge-default small" title={vals['tanggal'] + ' +0800 +0800'}>
                 6 Jun <span className="d-none d-md-inline"> {key}</span>
@@ -99,7 +98,7 @@ class Home extends Component {
         <h1>Arsip </h1>
         <div className="row">
           <div className="col-md-12">
-            <Card key={'1'}>
+            <Card>
               <CardBody className="p-0">
                 <table className="table table-hover bg-white">
                   <tbody>

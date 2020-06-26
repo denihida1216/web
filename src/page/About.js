@@ -34,7 +34,7 @@ class About extends Component {
             <p>
               Email : <a href="mailto:denihida1216@gmail.com">denihida1216@gmail.com</a><br />
               WA / Telegram : <a href="tel:+6285721661555">+6285721661555</a><br />
-              Linked : <a href="https://linked.com/denihida1216">https://linked.com/denihida1216</a><br />
+              Linked : <a href="https://id.linkedin.com/in/denihida1216">https://id.linkedin.com/in/denihida1216</a><br />
             </p>
           </div>
         </div>

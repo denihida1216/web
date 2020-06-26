@@ -10,7 +10,7 @@ class Portofolio extends Component {
           Untuk project yang tidak bersifat privasi, bisa ditemukan di <a href="https://github.com/denihida1216">Github</a>.</p>
         <div className="row">
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='9'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='10'>
             <h3>DEVELOP MODUL ODOO 12 COMMUNITY DI PT. CHELSEA JAYA MAKMUR (PIO PUDDING)</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -22,9 +22,10 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 3 framework odoo dengan bantuan software build Pycharm.
             </p>
+            <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='8'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='9'>
             <h3>DEVELOP MODUL ODOO 1O COMMUNITY DI PT. TIFATEX TEXTILE</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -36,9 +37,10 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
             </p>
+            <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='7'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='8'>
             <h3>DEVELOP MODUL ODOO 1O COMMUNITY DI PT. ISA (IDOLA SELARAS ABADI) TEXTILE</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -50,9 +52,10 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
             </p>
+            <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='6'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='7'>
             <h3>APLIKASI MOBILE ANDROID REUNI CGY (CAKRAWALA GLOBAL YAKSA)</h3>
             <p>URL: <a href="https://play.google.com/store/apps/details?id=com.reuni.cgy">Google Play</a></p>
             <LazyLoadImage
@@ -68,9 +71,10 @@ class Portofolio extends Component {
             <br />
               Dibangun menggunakan java android native dengan bantuan software build Android Studio.
             </p>
+            <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='5'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='6'>
             <h3>DEVELOP MODUL ODOO 10 COMMUNITY DI CV. ALMEGATEX</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -82,9 +86,10 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 2.7 framework odoo dengan bantuan software build Pycharm.
               </p>
+              <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='4'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='5'>
             <h3>DEVELOP MODUL ODOO 10 COMMUNITY DI PT. JAYAMAS DWI PERKASA (SIERRA WATER)</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -96,9 +101,10 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 2.7 dengan bantuan software build Pycharm.
               </p>
+              <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='3'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='4'>
             <h3>APLIKASI MOBILE ANDROID PURCHASE ORDER KONEKSI KE ODOO 10 COMMUNITY DI PT. JAYAMAS DWI PERKASA (SIERRA WATER)</h3>
             <p>URL: <a href="https://play.google.com/store/apps/details?id=com.water.sierra">Google Play</a></p>
             <LazyLoadImage
@@ -108,13 +114,14 @@ class Portofolio extends Component {
               src="./img/portofolio/sierra1.png" />
             <p>APLIKASI MOBILE ANDROID PURCHASE ORDER KONEKSI KE ODOO 10 COMMUNITY DI PT. JAYAMAS DWI PERKASA (SIERRA WATER)
             bertujuan untuk memudahkan kabag dalam melakukan validasi yang diinput oleh user, dan mengkontrol pembelian yang sudah dibayar atau belum.
-            pada menu report dan sales, hanya untuk melihat informasi penjualan sales yang mencapai target minimum untuk rekap insentif sales.
+            pada menu report dan sales, hanya untuk melihat informasi penjualan sales yang mencapai target minimum insentif sales.
               <br />
               Dibangun menggunakan java android native dengan bantuan software build Android Studio.
             </p>
+            <p></p>
           </div>
 
-          <div className="col-md-12" style={{ marginBottom: 20 }} key='2'>
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='3'>
             <h3>DEVELOP MODUL ODOO 12 ENTERPRISE DI PT. MULTI STAR RUKUN ABADI (SHARON BAKERY)</h3>
             <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
             <LazyLoadImage
@@ -126,6 +133,34 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan python 3 framework odoo dengan bantuan software build Pycharm.
             </p>
+            <p></p>
+          </div>
+
+          <div className="col-md-12" style={{ marginBottom: 20 }} key='2'>
+            <h3>DEVELOP WEB ANDROID SALES TO(TAKE ORDER) DI PT. MULTI STAR RUKUN ABADI (SHARON BAKERY)</h3>
+            <p>URL: <a href="https://github.com/denihida1216/">Github</a></p>
+            <LazyLoadImage
+              alt="sharon app 1"
+              width="100%"
+              effect="blur"
+              src="./img/portofolio/sharonapp1.png" />
+            <p>
+            DEVELOP WEB ANDROID SALES TO(TAKE ORDER) DI PT. MULTI STAR RUKUN ABADI (SHARON BAKERY) fasilitas sales untuk melakukan TO (Take Order)
+            data dimasukan ke program internal dengan output data yang dihasilkan adalah order marketing untuk ke produksi, 
+            surat jalan / Delivery Order, Faktur dan user ADM hanya cetak Faktur + Delivery Order. Flow pengiriman dan penagihan
+            order hari ini dikirim besok, untuk penagihan piutang disesuakan dengan jadwal waktu kunjungan / melakukan order kembali.
+              <br />
+              Dibangun menggunakan framework php codeigniter & android flutter dengan bantuan software build Visual Studio Code.
+            </p>
+            <h6>
+              Menu Android
+            </h6>
+            <LazyLoadImage
+              alt="sharon app 2"
+              width="100%"
+              effect="blur"
+              src="./img/portofolio/sharonapp2.png" />
+              <p></p>
           </div>
 
           <div className="col-md-12" style={{ marginBottom: 20 }} key='1'>
@@ -143,30 +178,31 @@ class Portofolio extends Component {
               <br />
               Dibangun menggunakan pascal dengan bantuan software build Delphi 7.
             </p>
-            <h5>
+            <h6>
               Print Out Work Order
-            </h5>
+            </h6>
             <LazyLoadImage
               alt="sharon wo 2"
               width="100%"
               effect="blur"
               src="./img/portofolio/wo2.png" />
-            <h5>
+            <h6>
               Menu Rekap data Work Order
-            </h5>
+            </h6>
             <LazyLoadImage
               alt="sharon wo 3"
               width="100%"
               effect="blur"
               src="./img/portofolio/wo3.png" />
-            <h5>
+            <h6>
               Print Out Rekap data Work Order
-            </h5>
+            </h6>
             <LazyLoadImage
               alt="sharon wo 4"
               width="100%"
               effect="blur"
               src="./img/portofolio/wo4.png" />
+              <p></p>
           </div>
 
         </div>
