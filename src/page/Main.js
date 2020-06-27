@@ -41,6 +41,7 @@ class Main extends React.Component {
               <Navbar.Toggle onClick={() => this.state.expanded ? this.setState({ expanded: false }) : this.setState({ expanded: true })} aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
+                  <Link className="nav-link" to="/" onClick={() => navClick(this)}>Home</Link>
                   <Link className="nav-link" to="/about" onClick={() => navClick(this)}>About</Link>
                   <Link className="nav-link" to="/portofolio" onClick={() => navClick(this)}>Portofolio</Link>
                 </Nav>

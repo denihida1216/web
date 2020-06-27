@@ -14,60 +14,140 @@ class Home extends Component {
         {
           'id': '1',
           'tanggal': '2020-01-01 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR1',
-          'path': '/blog/hp-cooling-fan/'
+          'nama': 'Cara Custom Modul Odoo 12 Dengan Javascript',
+          'path': '/blog/cara-custom-modul-odoo12-dengan-javascript/'
         },
         {
           'id': '2',
           'tanggal': '2020-01-02 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR2',
-          'path': '/blog/hp-cooling-fan/'
+          'nama': 'Membuat Tampilan Menu Gridview Cardview Android Studio',
+          'path': '/blog/membuat-tampilan-menu-gridview-cardview-android-studio/'
         },
         {
           'id': '3',
           'tanggal': '2020-01-03 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR3',
-          'path': '/blog/hp-cooling-fan/'
+          'nama': 'Android Upload Image Base64 Ke PHP',
+          'path': '/blog/android-upload-image-base64-ke-php/'
         },
+        {
+          'id': '4',
+          'tanggal': '2020-01-03 00:00:00',
+          'nama': 'Slim 3 CRUD Sederhana',
+          'path': '/blog/slim-3-crud-sederhana/'
+        },
+        {
+          'id': '5',
+          'tanggal': '2020-01-03 00:00:00',
+          'nama': 'Menambahkan API Rest Server Di Codeigniter 3',
+          'path': '/blog/menambahkan-api-rest-server-di-codeigniter3/'
+        },
+        {
+          'id': '6',
+          'tanggal': '2020-01-03 00:00:00',
+          'nama': 'Tutorial PHP Desktop',
+          'path': '/blog/tutorial-php-desktop/'
+        },
+        {
+          'id': '7',
+          'tanggal': '2020-01-03 00:00:00',
+          'nama': 'Tutorial Print Struk Codeigniter 3',
+          'path': '/blog/tutorial-print-struk-codeigniter3/'
+        },
+        {
+          'id': '8',
+          'tanggal': '2020-01-03 00:00:00',
+          'nama': 'Tutorial Menambahkan Sweet Alert Codeigniter 3',
+          'path': '/blog/tutorial-menambahkan-sweet-alert-codeigniter3/'
+        },
+
       ],
       '2019': [
         {
           'id': '1',
-          'tanggal': '2020-01-04 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR4',
+          'tanggal': '2019-01-04 00:00:00',
+          'nama': 'Cara Install Odoo 10',
           'path': '/blog/hp-cooling-fan/'
         },
         {
           'id': '2',
-          'tanggal': '2020-01-05 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR5',
-          'path': '/blog/hp-cooling-fan/'
+          'tanggal': '2019-01-05 00:00:00',
+          'nama': 'Mengatasi Akses Lambat Service PHP di Server Ubuntu',
+          'path': '/blog/mengatasi-akses-lambat-service-php-di-server-ubuntu/'
         },
         {
           'id': '3',
-          'tanggal': '2020-01-06 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR6',
-          'path': '/blog/hp-cooling-fan/'
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Cara Install Odoo 12',
+          'path': '/blog/cara-install-odoo12/'
         },
+        {
+          'id': '4',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Cara Custom Modul Odoo 10 Dasar',
+          'path': '/blog/cara-custom-modul-odoo10-dasar/'
+        },
+        {
+          'id': '5',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Cara Mengatasi Error Attachment Odoo 10',
+          'path': '/blog/cara-mengatasi-error-attachment-odoo10/'
+        },
+        {
+          'id': '6',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Cara Cronjob Odoo10',
+          'path': '/blog/cara-cronjob-odoo10/'
+        },
+        {
+          'id': '7',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Cara Custom Modul Report Qweb Odoo 10 Dasar',
+          'path': '/blog/cara-custom-modul-report-qweb-odoo10-dasar/'
+        },
+        {
+          'id': '8',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Perbedaan Custom Report Odoo 10 & 12',
+          'path': '/blog/perbedaan-custom-report-odoo1012/'
+        },
+        {
+          'id': '9',
+          'tanggal': '2019-01-06 00:00:00',
+          'nama': 'Tutorial Android Firebase Login',
+          'path': '/blog/tutorial-android-firebase-login/'
+        },
+
       ],
       '2018': [
         {
           'id': '1',
-          'tanggal': '2020-01-07 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR7',
-          'path': '/blog/hp-cooling-fan/'
+          'tanggal': '2018-02-07 17:43:21',
+          'nama': 'Cara Setting DVR CCTV Akses Online',
+          'path': '/blog/cara-setting-dvr-cctv-akses-online/'
         },
         {
           'id': '2',
-          'tanggal': '2020-01-08 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR8',
-          'path': '/blog/hp-cooling-fan/'
+          'tanggal': '2018-02-18 19:54:43',
+          'nama': 'Cara Instal OS Windows / Linux Dengan Rufus',
+          'path': '/blog/cara-instal-os-windows-linux-dengan-rufus/'
         },
         {
           'id': '3',
-          'tanggal': '2020-01-09 00:00:00',
-          'nama': 'Memperbaiki Laptop HP: COOLING FAN (902) ERROR9',
-          'path': '/blog/hp-cooling-fan/'
+          'tanggal': '2018-02-20 16:00:00',
+          'nama': 'Cara Instal DLCD Boot Ke USB',
+          'path': '/blog/cara-instal-dlcd-boot-ke-usb/'
+        },
+        {
+          'id': '4',
+          'tanggal': '2018-02-20 16:00:00',
+          'nama': 'Cara Setting PABX Telepon NEC',
+          'path': '/blog/cara-instal-dlcd-boot-ke-usb/'
+        },
+        {
+          'id': '5',
+          'tanggal': '2018-02-20 16:00:00',
+          'nama': 'Cara Krimping Kabel LAN dan Telepon',
+          'path': '/blog/cara-instal-dlcd-boot-ke-usb/'
         },
       ],
     };
