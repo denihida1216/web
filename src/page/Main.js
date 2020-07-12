@@ -9,6 +9,7 @@ import { Navbar, Nav, Container } from 'react-bootstrap';
 import Home from "./Home";
 import About from "./About";
 import Portofolio from "./Portofolio";
+import Tutorial from "./Tutorial";
 import PrivacyPolicy from "./PrivacyPolicy";
 
 class Main extends React.Component {
@@ -44,6 +45,7 @@ class Main extends React.Component {
                   <Link className="nav-link" to="/" onClick={() => navClick(this)}>Home</Link>
                   <Link className="nav-link" to="/about" onClick={() => navClick(this)}>About</Link>
                   <Link className="nav-link" to="/portofolio" onClick={() => navClick(this)}>Portofolio</Link>
+                  <Link className="nav-link" to="/tutorial" onClick={() => navClick(this)}>Tutorial</Link>
                 </Nav>
               </Navbar.Collapse>
             </Navbar>
@@ -52,6 +54,7 @@ class Main extends React.Component {
             <Route exact path="/" component={Home} />
             <Route path="/about" component={About} />
             <Route path="/portofolio" component={Portofolio} />
+            <Route path="/tutorial" component={Tutorial} />
             <Route path="/privacy-policy" component={PrivacyPolicy} />
           </Container>
           <footer className="mb-0 mt-5 py-5" onClick={() => this.setState({ expanded: false })}>

@@ -141,20 +141,18 @@ class Home extends Component {
           'id': '4',
           'tanggal': '2018-02-20 16:00:00',
           'nama': 'Cara Setting PABX Telepon NEC',
-          'path': '/blog/cara-instal-dlcd-boot-ke-usb/'
+          'path': '/blog/cara-setting-pabx-telepon-nec/'
         },
         {
           'id': '5',
           'tanggal': '2018-02-20 16:00:00',
           'nama': 'Cara Krimping Kabel LAN dan Telepon',
-          'path': '/blog/cara-instal-dlcd-boot-ke-usb/'
+          'path': '/blog/cara-krimping-kabel-lan-dan-telepon/'
         },
       ],
     };
 
-    // Object.keys(json).forEach(function (key) {
-      // Object.keys(json).forEach(function (key) {
-        Object.keys(json).reverse().map((key, i) => {
+    Object.keys(json).reverse().map((key, i) => {
       item.push(
         <tr key={i}>
           <td colSpan="3">
@@ -163,7 +161,7 @@ class Home extends Component {
         </tr>);
       json[key].forEach(vals => {
         item.push(
-          <tr key={key+'_'+vals['id']}>
+          <tr key={key + '_' + vals['id']}>
             <td className="p-1">
               <time className="text-secondary badge badge-default small" title={vals['tanggal'] + ' +0800 +0800'}>
                 6 Jun <span className="d-none d-md-inline"> {key}</span>
