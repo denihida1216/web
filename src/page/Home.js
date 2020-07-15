@@ -5,6 +5,7 @@ import {
 import {
   Link,
 } from "react-router-dom";
+import { format } from "date-fns";
 
 class Home extends Component {
   render() {
@@ -159,12 +160,14 @@ class Home extends Component {
             <h4>{key}</h4>
           </td>
         </tr>);
-      json[key].forEach(vals => {
+      json[key].reverse().forEach(vals => {
+        var date = new Date(vals['tanggal']);
+        var tanggal = format(date, "d MMM ");
         item.push(
           <tr key={key + '_' + vals['id']}>
             <td className="p-1">
               <time className="text-secondary badge badge-default small" title={vals['tanggal'] + ' +0800 +0800'}>
-                6 Jun <span className="d-none d-md-inline"> {key}</span>
+                {tanggal} <span className="d-none d-md-inline"> {key}</span>
               </time>
             </td>
             <td className="p-1">
@@ -188,7 +191,6 @@ class Home extends Component {
               </CardBody>
             </Card>
           </div>
-          {/* col end */}
         </div>
       </div>
     );

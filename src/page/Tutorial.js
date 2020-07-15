@@ -1,14 +1,12 @@
 import React, { Component } from "react";
-import { DiscussionEmbed } from 'disqus-react';
 import {
-  Card, CardImg, CardText, CardBody,
-  CardTitle, CardSubtitle, Button
+  Card, CardImg, CardBody, CardTitle
 } from 'reactstrap';
 import {
   Link,
 } from "react-router-dom";
 
-class Blog extends Component {
+class Tutorial extends Component {
   render() {
     const items = [];
     const json = [
@@ -49,19 +47,19 @@ class Blog extends Component {
         'path': '/slimphp'
       },
       {
-        'id': '6',
+        'id': '7',
         'title': 'FLUTTER',
         'logo': './img/tutorial/flutter.png',
         'path': '/flutter'
       },
       {
-        'id': '7',
+        'id': '8',
         'title': 'REACT JS',
         'logo': './img/tutorial/reactjs.png',
         'path': '/reactjs'
       },
       {
-        'id': '8',
+        'id': '9',
         'title': 'REACT NATIVE',
         'logo': './img/tutorial/reactnative.png',
         'path': '/reactnative'
@@ -72,10 +70,10 @@ class Blog extends Component {
       items.push(
         <div className="col-md-4" style={{ marginBottom: 20 }} key={vals['id']}>
           <Card key={vals['id']}>
-            <CardImg top width="100%" width="100%" src={vals['logo']} alt={vals['title']} />
+            <CardImg top src={vals['logo']} alt={vals['title']} />
             <CardBody>
               <CardTitle className="text-center"><h5>{vals['title']}</h5></CardTitle>
-              <Link className="btn btn-block btn-secondary" to={vals['path']}>Mulai</Link>
+              <Link className="btn btn-block btn-secondary" to={vals['path']}>Lihat</Link>
             </CardBody>
           </Card>
         </div>
@@ -95,4 +93,4 @@ class Blog extends Component {
   }
 }
 
-export default Blog;
+export default Tutorial;
